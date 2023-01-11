@@ -1,0 +1,12 @@
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
+[submodule "themes/hugo-theme-shell"]
+	path = themes/hugo-theme-shell
+	url = https://github.com/Yukuro/hugo-theme-shell.git
+[submodule "themes/cupper-hugo-theme"]
+	path = themes/cupper-hugo-theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "themes/holy"]
+	path = themes/holy
+	url = https://github.com/serkodev/holy.git
