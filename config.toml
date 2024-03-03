@@ -35,9 +35,20 @@ summaryLength = 70  # number of words for article summaries
     [[menu.main]]
         identifier = "code"
         name = "Code"
-        url = "/code/"
+        url = "https://github.com/sandman-code"
+        weight = 10
+    [[menu.main]]
+        identifier = "podcast"
+        name = "Podcast"
+        url = "https://podcasters.spotify.com/pod/show/sandmancode"
         weight = 10
 # this section is necessary if you want infinite scrolling
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
 [outputs]
     home = ["HTML", "JSON"]
+
+
+[markup.goldmark.renderer]
+    hardWraps = true
+    unsafe = true
+    xhtml = false

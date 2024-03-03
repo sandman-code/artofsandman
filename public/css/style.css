@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "ozy";
+  src: url("../fonts/Ozymandias.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bajern";
+  src: url("../fonts/Bajern.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Computer";
+  src: url("../fonts/cmunrm.ttf") format("ttf");
+}
