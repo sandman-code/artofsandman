@@ -1,5 +1,5 @@
 baseURL = "https://artofsandman.com/"
-theme = "holy"
+theme = "sandman"
 title = "Art of Sandman"
 languageCode = "en"
 defaultContentLanguage = "en"
