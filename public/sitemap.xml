@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://artofsandman.com/</loc>
+    <lastmod>2024-03-02T23:35:50-05:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://artofsandman.com/posts/</loc>
+    <lastmod>2024-03-02T23:35:50-05:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://artofsandman.com/posts/welcome-to-the-machine/</loc>
+    <lastmod>2024-03-02T23:35:50-05:00</lastmod>
+  </url><url>
+    <loc>https://artofsandman.com/about/</loc>
+  </url><url>
+    <loc>https://artofsandman.com/categories/</loc>
+  </url><url>
+    <loc>https://artofsandman.com/tags/</loc>
   </url>
 </urlset>

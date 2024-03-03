@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Art of Sandman</title>
+    <link>https://artofsandman.com/posts/</link>
+    <description>Recent content in Posts on Art of Sandman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Some copyright notice - [my license](https://example.com/license)</copyright>
+    <lastBuildDate>Sat, 02 Mar 2024 23:35:50 -0500</lastBuildDate><atom:link href="https://artofsandman.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Machine</title>
+      <link>https://artofsandman.com/posts/welcome-to-the-machine/</link>
+      <pubDate>Sat, 02 Mar 2024 23:35:50 -0500</pubDate>
+      
+      <guid>https://artofsandman.com/posts/welcome-to-the-machine/</guid>
+      <description>Computation is the currency of the 21st century
+If you don&amp;rsquo;t believe me then tell me why NVIDIA&amp;rsquo;s stock is at an unsustainable high. It was actually laughable thinking that this stock was going to dip after reporting earnings, for anyone to believe that they were not going to crush expectations.
+Most people see the AI trend and believe it parallels the dot com bubble, or will crash and burn like the Web3 hype that was spoon-fed to us.</description>
+    </item>
+    
+  </channel>
+</rss>
