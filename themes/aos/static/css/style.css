@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "ozy";
+  src: url("../fonts/Ozymandias.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bajern";
+  src: url("../fonts/Bajern.woff2") format("woff2");
+}
+.body-text {
+  font-family: Bajern, serif;
+}
