@@ -13,7 +13,7 @@
   
   <meta name="description" content="Greetings Neighbor!
  This is a collection of thoughts, ideas and notes that I want to publish. My hope for this blog and podcast is to facilitate thought, not only in myself, but others as well.
- Here we will talk a little bit about everything and discuss just about anything that can be computed.
+ Here we will talk about anything that can be computed, and argue what can&rsquo;t.
  Suggestions, questions or inquires can be directed to sandmancode@gmail.com
  Ciao!" />
   <meta
@@ -53,21 +53,33 @@
         sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
         Noto Color Emoji;
     }
+
+    @media screen and (max-width: 600px) {
+      .title-message {
+        visibility: hidden !important;
+        clear: both;
+        float: left;
+        margin: 0% !important;
+        display: none !important;
+      }
+    }
   </style></head>
 <body class="bg:fade-84@dark font:fade-16@dark font:sans">
     <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
-  <div class="h:full w:full max-w:1200 mx:auto px:32 d:flex align-items:center">
-    <div>
+  <div class="banner h:full w:full max-w:1200 mx:auto px:32 align-items:center">
+    <div class="title-message">
       <a href="/" class="mr-3 font:dark font:30">
          Art of Sandman 
       </a>
     </div>
     <div class="ml:auto">
-      <img
-        style="position: relative; width: 18px; margin-right: 20px"
-        src="/images/logo.png"
-        alt="fudge logo"
-      />
+      <a href="/">
+        <img
+          style="position: relative; width: 18px; margin-right: 20px"
+          src="/images/logo.png"
+          alt="fudge logo"
+        />
+      </a>
     </div>
     <div class="ml:auto">
         
@@ -136,7 +148,7 @@
 <br/>
 <p>This is a collection of thoughts, ideas and notes that I want to publish. My hope for this blog and podcast is to facilitate thought, not only in myself, but others as well.</p>
 <br/>
-<p>Here we will talk a little bit about everything and discuss just about anything that can be computed.</p>
+<p>Here we will talk about anything that can be computed, and argue what can&rsquo;t.</p>
 <br/>
 <p>Suggestions, questions or inquires can be directed to <strong><a href="mailto:sandmancode@gmail.com">sandmancode@gmail.com</a></strong></p>
 <br/>

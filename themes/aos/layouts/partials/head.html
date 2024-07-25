@@ -51,6 +51,16 @@
         sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
         Noto Color Emoji;
     }
+
+    @media screen and (max-width: 600px) {
+      .title-message {
+        visibility: hidden !important;
+        clear: both;
+        float: left;
+        margin: 0% !important;
+        display: none !important;
+      }
+    }
   </style>
 
   {{- partial "head-extra.html" . -}}

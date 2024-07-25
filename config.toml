@@ -21,7 +21,7 @@ summaryLength = 70  # number of words for article summaries
     showPostsLink = true  # show or hide the link to the simple post list
     extraContentDirs = []  # other content directories to render similarly to the home page
     showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
-
+    custom_css = ["css/style.css"]
 [menu]
     # these links will be added to the main navigation menu, sorted by weight
     # other elements in this menu are added automatically from the "pages" folder
