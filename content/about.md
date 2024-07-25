@@ -12,7 +12,7 @@ This is a collection of thoughts, ideas and notes that I want to publish. My hop
 
 <br/>
 
-Here we will talk a little bit about everything and discuss just about anything that can be computed.
+Here we will talk about anything that can be computed, and argue what can't.
 
 <br/>
 
