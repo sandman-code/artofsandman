@@ -22,6 +22,8 @@ summaryLength = 70  # number of words for article summaries
     extraContentDirs = []  # other content directories to render similarly to the home page
     showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
     custom_css = ["css/style.css"]
+    math = true
+    
 [menu]
     # these links will be added to the main navigation menu, sorted by weight
     # other elements in this menu are added automatically from the "pages" folder
@@ -47,8 +49,12 @@ summaryLength = 70  # number of words for article summaries
 [outputs]
     home = ["HTML", "JSON"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
-[markup.goldmark.renderer]
-    hardWraps = true
-    unsafe = true
-    xhtml = false
