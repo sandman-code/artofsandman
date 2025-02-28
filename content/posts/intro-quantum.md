@@ -2,7 +2,7 @@
 title: "1 - Intro To Quantum"
 date: 2025-02-26T21:51:01-05:00
 tags: ["Quantum"]
-draft: false
+draft: true
 ---
 
 In this series I am going to be posting my notes about quantum computing. My goal is to share knowledge as I go, with the hope that my discoveries and understandings could help and influence another person interested in the topic.
