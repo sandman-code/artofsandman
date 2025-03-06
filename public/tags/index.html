@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -52,14 +52,37 @@
         visibility: hidden !important;
         clear: both;
         float: left;
-        margin: 0% !important;
+        margin: none;
         display: none !important;
       }
     }
   </style></head>
-<body class="bg:fade-84@dark font:fade-16@dark font:sans">
+<head>
+     <script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [
+        ["\\[", "\\]"],
+        ["$$", "$$"],
+      ], 
+      inlineMath: [["\\(", "\\)"]], 
+    },
+    loader: {
+      load: ["ui/safe"],
+    },
+  };
+</script>
+ 
+  </head>
+
+  <body class="bg:fade-84@dark font:fade-16@dark font:sans">
     <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
-  <div class="banner h:full w:full max-w:1200 mx:auto px:32 align-items:center">
+  <div class="h:full w:full max-w:1200 mx:auto d:flex px:32 align-items:center">
     <div class="title-message">
       <a href="/" class="mr-3 font:dark font:30">
          Art of Sandman 
@@ -147,7 +170,31 @@
       <div
         class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in"
       >
-        <a class="f:24 font:semibold" href="https://artofsandman.com/posts/welcome-to-the-machine/">
+        <a class="f:24 font:semibold" href="http://localhost:1313/posts/intro-quantum/">
+          <div class="font">1 - Intro To Quantum</div>
+        </a>
+        <div class="mt:12 f:fade-70">
+          <time>Feb 26, 2025</time>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in"
+      >
+        <a class="f:24 font:semibold" href="http://localhost:1313/posts/babel-on-friends/">
+          <div class="font">Babel on Friends</div>
+        </a>
+        <div class="mt:12 f:fade-70">
+          <time>Jul 24, 2024</time>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in"
+      >
+        <a class="f:24 font:semibold" href="http://localhost:1313/posts/welcome-to-the-machine/">
           <div class="font">Welcome to the Machine</div>
         </a>
         <div class="mt:12 f:fade-70">

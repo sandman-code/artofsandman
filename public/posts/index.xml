@@ -2,22 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Art of Sandman</title>
-    <link>https://artofsandman.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Art of Sandman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Some copyright notice - [my license](https://example.com/license)</copyright>
-    <lastBuildDate>Sat, 02 Mar 2024 23:35:50 -0500</lastBuildDate><atom:link href="https://artofsandman.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 21:51:01 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 - Intro To Quantum</title>
+      <link>http://localhost:1313/posts/intro-quantum/</link>
+      <pubDate>Wed, 26 Feb 2025 21:51:01 -0500</pubDate>
+      <guid>http://localhost:1313/posts/intro-quantum/</guid>
+      <description>In this series I am going to be posting my notes about quantum computing. My goal is to share knowledge as I go, with the hope that my discoveries and understandings could help and influence another person interested in the topic.&#xA;In this section we will start from the very basics of quantum computing and quantum information. Most of this section will be very closely coupled to the textbook Quantum Computation And Quantum Information 10th Edition by Nielsen and Chuang.</description>
+    </item>
+    <item>
+      <title>Babel on Friends</title>
+      <link>http://localhost:1313/posts/babel-on-friends/</link>
+      <pubDate>Wed, 24 Jul 2024 23:18:21 -0400</pubDate>
+      <guid>http://localhost:1313/posts/babel-on-friends/</guid>
+      <description>What does the Library of Babel say about creativity, the prusuit of knowledge and the idea of a moment?</description>
+    </item>
     <item>
       <title>Welcome to the Machine</title>
-      <link>https://artofsandman.com/posts/welcome-to-the-machine/</link>
+      <link>http://localhost:1313/posts/welcome-to-the-machine/</link>
       <pubDate>Sat, 02 Mar 2024 23:35:50 -0500</pubDate>
-      
-      <guid>https://artofsandman.com/posts/welcome-to-the-machine/</guid>
-      <description>Computation is the currency of the 21st century
-If you don&amp;rsquo;t believe me then tell me why NVIDIA&amp;rsquo;s stock is at an unsustainable high. It was actually laughable thinking that this stock was going to dip after reporting earnings, for anyone to believe that they were not going to crush expectations.
-Most people see the AI trend and believe it parallels the dot com bubble, or will crash and burn like the Web3 hype that was spoon-fed to us.</description>
+      <guid>http://localhost:1313/posts/welcome-to-the-machine/</guid>
+      <description>Computation is the currency of the 21st century&#xA;If you don&amp;rsquo;t believe me then tell me why NVIDIA&amp;rsquo;s stock is at an unsustainable high. It was actually laughable thinking that this stock was going to dip after reporting earnings, for anyone to believe that they were not going to crush expectations.&#xA;Most people see the AI trend and believe it parallels the dot com bubble, or will crash and burn like the Web3 hype that was spoon-fed to us.</description>
     </item>
-    
   </channel>
 </rss>
